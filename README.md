@@ -1,1 +1,7 @@
-# brandpilot-os1
+# BrandPilot OS
+
+Digitale Plattform für externe Brandschutzbeauftragte.
+
+## Status
+
+🚧 In Entwicklung
