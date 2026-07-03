@@ -1,17 +1,18 @@
 import typer
 
-app = typer.Typer(
-    help="BrandPilot OS - Installer und Verwaltung"
-)
+app = typer.Typer(help="BrandPilot OS")
+
+
+@app.callback()
+def main():
+    """
+    BrandPilot OS
+    """
+    pass
 
 
 @app.command()
-def version():
-    """Zeigt die aktuelle Version."""
-    print("BrandPilot OS Version 0.1.0")
-
-
-@app.command()
-def hello():
-    """Testkommando."""
-    print("Hallo Sven 👋")
+def doctor():
+    """Prüft die Entwicklungsumgebung."""
+    typer.echo("🧯 BrandPilot OS")
+    typer.echo("✅ CLI funktioniert!")

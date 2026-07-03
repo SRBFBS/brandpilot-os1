@@ -9,12 +9,12 @@ description = "BrandPilot OS"
 requires-python = ">=3.11"
 
 dependencies = [
+    "typer",
     "requests",
     "python-dotenv",
     "PyYAML",
-    "pydantic",
     "rich",
-    "typer"
+    "pydantic"
 ]
 
 [project.scripts]
